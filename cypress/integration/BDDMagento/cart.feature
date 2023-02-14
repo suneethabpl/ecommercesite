@@ -1,8 +1,6 @@
 Feature: Megento apllication
 
-    test Megento application
-
-
+  test Megento application
 
 Scenario: Search the product
 Given the User is Navigate to 'Home' page
@@ -15,5 +13,3 @@ And the user select 'Yellow','S','1' and add to the cart
 When the User searches for 'Quest Lumaflex™ Band'
 And the user add product to the cart
 Then the User should be able to add all products and cart total should be '$140.00' for 'United Kingdom'
-
-  

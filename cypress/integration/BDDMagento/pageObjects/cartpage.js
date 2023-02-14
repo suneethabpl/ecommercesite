@@ -7,12 +7,15 @@ class cartPage {
         cy.wait(2000)
         cy.get('select[name="country_id"]').select(country, { force: true })
     }
+
     verifyFirstProductCart(price) {
         cy.get("#cart-totals table tr:nth-child(4)").contains(price)
     }
+
     verifyAllProductsCart(price) {
         cy.get("#cart-totals table tr:nth-child(3)").contains(price)
     }
+
     updateCart(quantity) {
         cy.get(".action.showcart").click({ force: true })
         cy.get("#minicart-content-wrapper  a.viewcart").contains('View and Edit Cart').click({ force: true })

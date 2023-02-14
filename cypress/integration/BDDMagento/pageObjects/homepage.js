@@ -4,6 +4,7 @@ class HomePage {
     }
 
     verifyHomepage(title) {
+
         return cy.title().should('include', title)
     }
     searchProduct(searchString) {
