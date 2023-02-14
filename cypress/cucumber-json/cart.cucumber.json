@@ -1,0 +1,123 @@
+[
+  {
+    "description": "    test Megento application",
+    "keyword": "Feature",
+    "name": "Megento apllication",
+    "line": 1,
+    "id": "megento-apllication",
+    "tags": [],
+    "uri": "cart.feature",
+    "elements": [
+      {
+        "id": "megento-apllication;search-the-product",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Search the product",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "the User is Navigate to 'Home' page",
+            "result": {
+              "status": "passed",
+              "duration": 4127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the User searches for 'Gwyn Endurance Tee'",
+            "result": {
+              "status": "passed",
+              "duration": 7721000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user select 'Green','M','4' and add to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 4045000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the User should be able to add all products and checkout price should be '$92.00' for 'United Kingdom'",
+            "result": {
+              "status": "passed",
+              "duration": 10417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the User update the quantity of cart to '3'",
+            "result": {
+              "status": "passed",
+              "duration": 6063000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the User searches for 'Gwyn Endurance Tee'",
+            "result": {
+              "status": "passed",
+              "duration": 7295000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user select 'Yellow','S','1' and add to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 3778000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "the User searches for 'Quest Lumaflex™ Band'",
+            "result": {
+              "status": "passed",
+              "duration": 8017000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "the user add product to the cart",
+            "result": {
+              "status": "passed",
+              "duration": 1454000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the User should be able to add all products and checkout price should be '$115.00' for 'United Kingdom'",
+            "result": {
+              "status": "passed",
+              "duration": 4611000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
