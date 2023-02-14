@@ -23,7 +23,7 @@
             "name": "the User is Navigate to 'Home' page",
             "result": {
               "status": "passed",
-              "duration": 4127000000
+              "duration": 2257000000
             }
           },
           {
@@ -33,7 +33,7 @@
             "name": "the User searches for 'Gwyn Endurance Tee'",
             "result": {
               "status": "passed",
-              "duration": 7721000000
+              "duration": 3571000000
             }
           },
           {
@@ -43,17 +43,17 @@
             "name": "the user select 'Green','M','4' and add to the cart",
             "result": {
               "status": "passed",
-              "duration": 4045000000
+              "duration": 2004000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 11,
-            "name": "the User should be able to add all products and checkout price should be '$92.00' for 'United Kingdom'",
+            "name": "the User should be able to add product and cart total should be '$92.00' for 'United Kingdom'",
             "result": {
               "status": "passed",
-              "duration": 10417000000
+              "duration": 9636000000
             }
           },
           {
@@ -63,7 +63,7 @@
             "name": "the User update the quantity of cart to '3'",
             "result": {
               "status": "passed",
-              "duration": 6063000000
+              "duration": 4732000000
             }
           },
           {
@@ -73,7 +73,7 @@
             "name": "the User searches for 'Gwyn Endurance Tee'",
             "result": {
               "status": "passed",
-              "duration": 7295000000
+              "duration": 4506000000
             }
           },
           {
@@ -83,7 +83,7 @@
             "name": "the user select 'Yellow','S','1' and add to the cart",
             "result": {
               "status": "passed",
-              "duration": 3778000000
+              "duration": 1696000000
             }
           },
           {
@@ -93,7 +93,7 @@
             "name": "the User searches for 'Quest Lumaflex™ Band'",
             "result": {
               "status": "passed",
-              "duration": 8017000000
+              "duration": 4125000000
             }
           },
           {
@@ -103,17 +103,17 @@
             "name": "the user add product to the cart",
             "result": {
               "status": "passed",
-              "duration": 1454000000
+              "duration": 812000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 17,
-            "name": "the User should be able to add all products and checkout price should be '$115.00' for 'United Kingdom'",
+            "name": "the User should be able to add all products and cart total should be '$140.00' for 'United Kingdom'",
             "result": {
               "status": "passed",
-              "duration": 4611000000
+              "duration": 6463000000
             }
           }
         ]

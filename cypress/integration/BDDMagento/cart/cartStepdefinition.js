@@ -14,17 +14,22 @@ And("the user select {string},{string},{string} and add to the cart", (color, si
 
 })
 
-Then("the User should be able to add all products and checkout price should be {string} for {string}", (price, country) => {
-    cartpage.VerifyCart(price, country)
-
+Then("the User should be able to add product and cart total should be {string} for {string}", (price, country) => {
+    cartpage.cart(country);
+    cartpage.verifyFirstProductCart(price);
 })
 
 When("the User update the quantity of cart to {string}", (quantity) => {
-    cartpage.UpdateCart(quantity)
+    cartpage.updateCart(quantity)
 
 })
 
 And("the user add product to the cart", () => {
     searchpage.addProductToCart()
 
+})
+
+Then("the User should be able to add all products and cart total should be {string} for {string}", (price, country) => {
+    cartpage.cart(country);
+    cartpage.verifyAllProductsCart(price)
 })

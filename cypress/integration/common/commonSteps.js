@@ -4,6 +4,6 @@ import homepage from '../BDDMagento/pageObjects/homepage'
 
 
 Given("the User is Navigate to {string} page", (title) => {
-    homepage.NavigateToHome();
-    homepage.VerifyHomepage(title);
+    homepage.navigateToHome();
+    homepage.verifyHomepage(title);
 })

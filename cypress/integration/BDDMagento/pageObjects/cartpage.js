@@ -1,14 +1,19 @@
 class cartPage {
-    VerifyCart(price, country) {
-        cy.get(".action.showcart").click({ force: true })
+    cart(country) {
+        cy.get(".action.showcart").click()
         cy.get("#minicart-content-wrapper  a.viewcart").contains('View and Edit Cart').click({ force: true })
-        cy.wait(1000)
+        cy.wait(2000)
         cy.get(".cart-summary").find('#block-shipping > .title').click({ force: true })
-        cy.wait(1000)
+        cy.wait(2000)
         cy.get('select[name="country_id"]').select(country, { force: true })
-        cy.get("#cart-totals table tr:nth-child(4)").contains(price, { force: true })
     }
-    UpdateCart(quantity) {
+    verifyFirstProductCart(price) {
+        cy.get("#cart-totals table tr:nth-child(4)").contains(price)
+    }
+    verifyAllProductsCart(price) {
+        cy.get("#cart-totals table tr:nth-child(3)").contains(price)
+    }
+    updateCart(quantity) {
         cy.get(".action.showcart").click({ force: true })
         cy.get("#minicart-content-wrapper  a.viewcart").contains('View and Edit Cart').click({ force: true })
         cy.get("#shopping-cart-table td:nth-child(3) input").clear()
