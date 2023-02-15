@@ -8,7 +8,7 @@ When("the User searches for {string}", (searchString) => {
     homepage.searchProduct(searchString);
 })
 
-And("the user select {string},{string},{string} and add to the cart", (color, size, quantity) => {
+And("the User select {string},{string},{string} and add to the cart", (color, size, quantity) => {
     searchpage.changeProductInfoandAdd(color, size, quantity)
 })
 
@@ -21,7 +21,7 @@ When("the User update the quantity of cart to {string}", (quantity) => {
     cartpage.updateCart(quantity)
 })
 
-And("the user add product to the cart", () => {
+And("the User add product to the cart", () => {
     searchpage.addProductToCart()
 })
 
