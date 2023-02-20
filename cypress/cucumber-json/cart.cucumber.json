@@ -23,97 +23,77 @@
             "name": "the User is navigate to 'Home' page",
             "result": {
               "status": "passed",
-              "duration": 2556000000
+              "duration": 2035000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 7,
-            "name": "the User searches for 'Gwyn Endurance Tee'",
+            "name": "the User searches for 'Gwyn Endurance Tee' to select 'Green','M','4' and add to the cart",
             "result": {
               "status": "passed",
-              "duration": 4673000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "the User select 'Green','M','4' and add to the cart",
-            "result": {
-              "status": "passed",
-              "duration": 988000000
+              "duration": 4854000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 9,
+            "line": 8,
             "name": "the User should be able to add product and cart total should be '$92.00' for 'United Kingdom'",
             "result": {
               "status": "passed",
-              "duration": 9901000000
+              "duration": 9457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the User update the quantity of cart to '3'",
+            "result": {
+              "status": "passed",
+              "duration": 3874000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 10,
-            "name": "the User update the quantity of cart to '3'",
+            "name": "the User searches for 'Gwyn Endurance Tee' to select 'Yellow','S','1' and add to the cart",
             "result": {
               "status": "passed",
-              "duration": 5930000000
+              "duration": 5186000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
             "line": 11,
-            "name": "the User searches for 'Gwyn Endurance Tee'",
+            "name": "the User searches for 'Quest Lumaflex™ Band'",
             "result": {
               "status": "passed",
-              "duration": 3977000000
+              "duration": 3751000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 12,
-            "name": "the User select 'Yellow','S','1' and add to the cart",
-            "result": {
-              "status": "passed",
-              "duration": 1488000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 13,
-            "name": "the User searches for 'Quest Lumaflex™ Band'",
-            "result": {
-              "status": "passed",
-              "duration": 4416000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 14,
             "name": "the User add product to the cart",
             "result": {
               "status": "passed",
-              "duration": 777000000
+              "duration": 746000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
+            "line": 13,
             "name": "the User should be able to add all products and cart total should be '$140.00' for 'United Kingdom'",
             "result": {
               "status": "passed",
-              "duration": 6287000000
+              "duration": 6737000000
             }
           }
         ]

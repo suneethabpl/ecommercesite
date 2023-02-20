@@ -9,11 +9,11 @@ class cartPage {
     }
 
     verifyFirstProductCart(price) {
-        cy.get("#cart-totals table tr:nth-child(4)").contains(price)
+        cy.get("#cart-totals table tr:nth-child(4)").contains(price).should('be.visible');
     }
 
     verifyAllProductsCart(price) {
-        cy.get("#cart-totals table tr:nth-child(3)").contains(price)
+        cy.get("#cart-totals table tr:nth-child(3)").contains(price).should('be.visible');
     }
 
     updateCart(quantity) {

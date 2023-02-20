@@ -4,12 +4,13 @@ import homepage from '../pageObjects/homepage'
 import searchpage from '../pageObjects/searchproducts'
 import cartpage from '../pageObjects/cartpage'
 
-When("the User searches for {string}", (searchString) => {
+When("the User searches for {string} to select {string},{string},{string} and add to the cart", (searchString, color, size, quantity) => {
     homepage.searchProduct(searchString);
+    searchpage.changeProductInfoandAdd(color, size, quantity)
 })
 
-And("the User select {string},{string},{string} and add to the cart", (color, size, quantity) => {
-    searchpage.changeProductInfoandAdd(color, size, quantity)
+When("the User searches for {string}", (searchString) => {
+    homepage.searchProduct(searchString);
 })
 
 Then("the User should be able to add product and cart total should be {string} for {string}", (price, country) => {
